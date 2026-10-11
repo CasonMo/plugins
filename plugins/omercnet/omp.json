@@ -20,8 +20,8 @@
   "listing": {
     "name": "OMP",
     "media": [
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-omp/docs/images/plugin-manager.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-omp/docs/images/workspace-settings.png"
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-omp/docs/images/plugin-manager.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-omp/docs/images/workspace-settings.png"
     ]
   }
 }
