@@ -20,9 +20,9 @@
   "reviewedAt": "2026-10-11",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-gas-city/docs/images/paseo-gas-city-wide-overview.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-gas-city/docs/images/paseo-gas-city-wide-events.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-gas-city/docs/images/paseo-gas-city-compact-overview.png"
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-gas-city/docs/images/paseo-gas-city-wide-overview.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-gas-city/docs/images/paseo-gas-city-wide-events.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-gas-city/docs/images/paseo-gas-city-compact-overview.png"
     ]
   }
 }
