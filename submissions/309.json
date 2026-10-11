@@ -1,0 +1,14 @@
+{
+  "issue": 309,
+  "title": "PigMonitor",
+  "submittedBy": "Patruxs",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/Patruxs/PigMonitor"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ]
+}
