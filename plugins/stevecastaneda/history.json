@@ -15,9 +15,13 @@
   ],
   "submittedAt": "2026-10-01",
   "submittedBy": "stevecastaneda",
-  "reviewedAt": "2026-10-10",
+  "reviewedAt": "2026-10-11",
   "listing": {
-    "media": [],
+    "media": [
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/2c37489a4984d58b5c25cf997220608bf2c70c9e/history/images/1-conversation.png",
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/2c37489a4984d58b5c25cf997220608bf2c70c9e/history/images/2-tags.png",
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/2c37489a4984d58b5c25cf997220608bf2c70c9e/history/images/3-source.png"
+    ],
     "icon": "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/e4afb2f47e28f6d10dfd9575ec7763a118763364/history/icon.png"
   }
 }
