@@ -20,8 +20,8 @@
   "listing": {
     "name": "PR Radar",
     "media": [
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/pr-radar/docs/images/pr-radar-github-inbox-wide.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/pr-radar/docs/images/pr-radar-github-inbox-compact.png"
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/pr-radar/docs/images/pr-radar-github-inbox-wide.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/pr-radar/docs/images/pr-radar-github-inbox-compact.png"
     ]
   }
 }
