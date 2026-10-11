@@ -19,7 +19,7 @@
   "reviewedAt": "2026-10-11",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/tomgrin10/paseo-defer/main/docs/defer-popover.png"
+      "https://cdn.jsdelivr.net/npm/paseo-defer@2.4.0/docs/defer-popover.png"
     ]
   }
 }
