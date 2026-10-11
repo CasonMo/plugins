@@ -1,0 +1,28 @@
+{
+  "id": "patruxs/pigmonitor",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/Patruxs/PigMonitor.git",
+    "commit": "b90f78e4c8885b81f630aa3222ad249f7e17de68"
+  },
+  "repository": {
+    "url": "https://github.com/Patruxs/PigMonitor",
+    "commit": "b90f78e4c8885b81f630aa3222ad249f7e17de68"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-11",
+  "submittedBy": "Patruxs",
+  "reviewedAt": "2026-10-11",
+  "listing": {
+    "name": "PigMonitor",
+    "media": [
+      "https://raw.githubusercontent.com/Patruxs/PigMonitor/8d10b9c60bb939bee183e7b9b6b7ea7195064498/docs/media/overview.png",
+      "https://raw.githubusercontent.com/Patruxs/PigMonitor/8d10b9c60bb939bee183e7b9b6b7ea7195064498/docs/media/graph.png",
+      "https://raw.githubusercontent.com/Patruxs/PigMonitor/8d10b9c60bb939bee183e7b9b6b7ea7195064498/docs/media/sessions.png"
+    ]
+  }
+}
