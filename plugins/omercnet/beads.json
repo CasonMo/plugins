@@ -19,8 +19,8 @@
   "reviewedAt": "2026-10-11",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-beads/docs/images/paseo-beads-wide.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-beads/docs/images/paseo-beads-compact.png"
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-beads/docs/images/paseo-beads-wide.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-beads/docs/images/paseo-beads-compact.png"
     ]
   }
 }
