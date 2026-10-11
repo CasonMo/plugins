@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "@omercnet/paseo-context-mode",
-    "version": "1.2.3",
-    "resolved": "https://registry.npmjs.org/@omercnet/paseo-context-mode/-/paseo-context-mode-1.2.3.tgz",
-    "integrity": "sha512-FyDDzck0rJOn1GO0LEfB+Y0fUhUTyu492ChwMAfUN9oy1SeQgto0vwpWTjdkB4/1C5Jh9o9xUNSM1oG+sRODug=="
+    "version": "2.0.0",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-context-mode/-/paseo-context-mode-2.0.0.tgz",
+    "integrity": "sha512-74LjgpQb+V/KQq007GE3/qvr1QWOecv4cXXprYK9DXI5xRcIyPtuu/wVPinowvOVHN/JMOwXXCgSofPXRB+yEg=="
   },
   "repository": {
     "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/context-mode",
-    "commit": "29093293b01046f34afd09a3261ed6cf5f0ac5b8"
+    "commit": "10766d8374dd543ba36a66c2028c3ac3316c4633"
   },
   "categories": [
     "providers",
@@ -17,7 +17,7 @@
   ],
   "submittedAt": "2026-09-26",
   "submittedBy": "omercnet",
-  "reviewedAt": "2026-10-09",
+  "reviewedAt": "2026-10-11",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/context-mode/screenshot.png",
