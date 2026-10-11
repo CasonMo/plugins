@@ -15,11 +15,5 @@
   ],
   "submittedAt": "2026-09-10",
   "submittedBy": "stevecastaneda",
-  "reviewedAt": "2026-10-11",
-  "listing": {
-    "media": [
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/dc43bff3ee0ce6d2b4e2b88762202c15e12fd376/workspace-links/popover.png",
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/dc43bff3ee0ce6d2b4e2b88762202c15e12fd376/workspace-links/explorer.png"
-    ]
-  }
+  "reviewedAt": "2026-10-11"
 }
