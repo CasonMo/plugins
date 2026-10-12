@@ -1,0 +1,12 @@
+{
+  "issue": 364,
+  "title": "Recap",
+  "submittedBy": "kingsleydon",
+  "source": {
+    "kind": "npm",
+    "package": "paseo-recap"
+  },
+  "categories": [
+    "utils"
+  ]
+}
