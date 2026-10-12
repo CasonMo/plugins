@@ -19,8 +19,9 @@ export interface PublishedPlugin {
   media: string[];
   submittedAt: string;
   reviewedAt: string;
-  /** Registry publication date, derived from the record review date. */
+  /** When the plugin was first listed. Updates keep it. */
   publishedAt: string;
+  /** When the pinned version was approved, the same as reviewedAt. */
   updatedAt: string;
   installs?: number;
 }
@@ -50,7 +51,7 @@ export async function resolvePlugin(
     ? resolveVersion(await client.packument(artifact.package), artifact.version)
     : undefined;
   const metadata = resolveMetadata(files, record, doc ? doc.description?.trim() ?? "" : undefined);
-  const date = new Date(record.reviewedAt).toISOString();
+  const reviewedAt = new Date(record.reviewedAt).toISOString();
   return {
     id: record.id,
     ...metadata,
@@ -60,9 +61,9 @@ export async function resolvePlugin(
     categories: record.categories,
     author: { ...(doc ? authorOf(doc) : {}), github: record.id.split("/")[0] },
     submittedAt: new Date(record.submittedAt).toISOString(),
-    reviewedAt: date,
-    publishedAt: date,
-    updatedAt: date,
+    reviewedAt,
+    publishedAt: new Date(record.publishedAt).toISOString(),
+    updatedAt: reviewedAt,
     readme,
   };
 }

@@ -1,5 +1,6 @@
-export function isoDate(date: Date = new Date()): string {
-  return date.toISOString().slice(0, 10);
+/** The time a writer stamps on a record, to the second, so same-day records keep their order. */
+export function recordTime(date: Date = new Date()): string {
+  return date.toISOString().replace(/\.\d{3}Z$/, "Z");
 }
 
 /** A record date: `YYYY-MM-DD`, or an ISO 8601 timestamp with a time zone when the day is too coarse. */

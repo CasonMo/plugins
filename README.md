@@ -43,10 +43,21 @@ owner, even when the npm publisher has a different name. `artifact` is the insta
 pin; `repository` is the browseable source and optional proven source commit.
 
 Humans edit categories and optional `listing` overrides (`name`, `description`,
-HTTPS PNG `icon`, HTTPS `media`). The bot writes artifact pins and review dates.
-`submittedAt` and `reviewedAt` are `YYYY-MM-DD` or an ISO 8601 timestamp with a
-time zone, such as `2026-10-12T11:42:00Z`, when same-day listings need an order. The published
-index combines records with metadata from their pinned manifests. See
+HTTPS PNG `icon`, HTTPS `media`). The bot writes artifact pins and dates:
+
+| Field | Meaning |
+| --- | --- |
+| `submittedAt` | When the plugin was submitted |
+| `publishedAt` | When the first version was approved and listed. Updates keep it. |
+| `reviewedAt` | When the pinned version was approved. Updates move it. |
+
+The website lists plugins as new by `publishedAt` and as recently updated by
+`reviewedAt`, so a slow review does not push a new plugin down and a version bump
+does not show as new. `npm run add` and `npm run bump` write UTC timestamps to the
+second, such as `2026-10-12T11:42:00Z`, so same-day listings keep their order.
+Records written before timestamps carry `YYYY-MM-DD` and read as midnight UTC.
+
+The published index combines records with metadata from their pinned manifests. See
 [plugin metadata](#plugin-metadata) for fields and override precedence.
 
 Authors can ship `OVERVIEW.md` beside `paseo-plugin.json` in the submitted artifact.
