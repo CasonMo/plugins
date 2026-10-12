@@ -81,6 +81,10 @@ test("reports every problem at once", () => {
     /listing.icon must be an https PNG/,
   );
   assert.throws(
+    () => parseRecord({ ...valid, listing: { description: " " } }, known),
+    /listing.description must be a non-empty string/,
+  );
+  assert.throws(
     () => parseRecord({ ...valid, submittedAt: "yesterday" }, known),
     /submittedAt must be YYYY-MM-DD/,
   );

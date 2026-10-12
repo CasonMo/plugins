@@ -26,6 +26,7 @@ export interface PluginRecord {
 
 export interface PluginListingOverrides {
   name?: string;
+  description?: string;
   icon?: string;
   media?: string[];
 }
@@ -135,6 +136,11 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
           problems.push("listing.name must be a non-empty string");
         else listing.name = raw.name;
       }
+      if (raw.description !== undefined) {
+        if (typeof raw.description !== "string" || !raw.description.trim())
+          problems.push("listing.description must be a non-empty string");
+        else listing.description = raw.description;
+      }
       if (raw.icon !== undefined) {
         if (typeof raw.icon !== "string" || !/^https:\/\/\S+\.png$/i.test(raw.icon))
           problems.push("listing.icon must be an https PNG URL");
@@ -145,7 +151,7 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
         catch (error) { problems.push(`listing.${(error as Error).message}`); }
       }
       for (const key of Object.keys(raw)) {
-        if (!["name", "icon", "media"].includes(key))
+        if (!["name", "description", "icon", "media"].includes(key))
           problems.push(`unknown field "listing.${key}"`);
       }
     }

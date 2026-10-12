@@ -42,8 +42,8 @@ Keep records in `plugins/<owner>/<slug>.json`. The owner is the GitHub repositor
 owner, even when the npm publisher has a different name. `artifact` is the install
 pin; `repository` is the browseable source and optional proven source commit.
 
-Humans edit categories and optional `listing` overrides (`name`, HTTPS PNG `icon`,
-HTTPS `media`). The bot writes artifact pins and review dates. The published
+Humans edit categories and optional `listing` overrides (`name`, `description`,
+HTTPS PNG `icon`, HTTPS `media`). The bot writes artifact pins and review dates. The published
 index combines records with metadata from their pinned manifests. See
 [plugin metadata](#plugin-metadata) for fields and override precedence.
 
@@ -133,6 +133,7 @@ The existing record's `listing` values override the manifest **per field**:
 | Field | First choice | Otherwise |
 | --- | --- | --- |
 | Name | `listing.name` | Manifest `name`, then a humanized registry id |
+| Description | `listing.description` | npm package `description` for npm artifacts, manifest `description` for Git |
 | Icon | `listing.icon` | Manifest `icon`, or no icon |
 | Media | `listing.media` | Manifest `media`, or an empty array |
 
