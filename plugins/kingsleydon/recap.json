@@ -1,0 +1,24 @@
+{
+  "id": "kingsleydon/recap",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/kingsleydon/paseo-recap.git",
+    "commit": "d5349c600a42c62c4b428b864b1fe53956aa57c3"
+  },
+  "repository": {
+    "url": "https://github.com/kingsleydon/paseo-recap",
+    "commit": "d5349c600a42c62c4b428b864b1fe53956aa57c3"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-12",
+  "submittedBy": "kingsleydon",
+  "reviewedAt": "2026-10-12",
+  "listing": {
+    "name": "Recap",
+    "media": [
+      "https://raw.githubusercontent.com/kingsleydon/paseo-recap/d5349c600a42c62c4b428b864b1fe53956aa57c3/docs/images/recap.png"
+    ]
+  }
+}
