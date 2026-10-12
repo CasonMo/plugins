@@ -1,0 +1,13 @@
+{
+  "issue": 335,
+  "title": "Native-like Polish",
+  "submittedBy": "JasprW",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/JasprW/paseo-native-polish"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar"
+  ]
+}
