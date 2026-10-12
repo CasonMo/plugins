@@ -16,11 +16,13 @@
   ],
   "submittedAt": "2026-09-12",
   "submittedBy": "geoqiao",
-  "reviewedAt": "2026-10-10",
+  "reviewedAt": "2026-10-12T13:36:36Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/geoqiao/paseo-stuff/724473250b01b70c335ad0d546c587e233720568/plugins/deepseek-harness/images/cover.png"
     ],
-    "name": "DeepSeek Harness"
-  }
+    "name": "DeepSeek Harness",
+    "description": "Run Paseo agents through the DeepSeek Harness command line tool using its ACP profile."
+  },
+  "publishedAt": "2026-09-12"
 }

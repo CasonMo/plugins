@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "@omercnet/paseo-gas-city",
-    "version": "1.2.1",
-    "resolved": "https://registry.npmjs.org/@omercnet/paseo-gas-city/-/paseo-gas-city-1.2.1.tgz",
-    "integrity": "sha512-GlUSE4jhsjLp+eHypuylSQz2Y0wKhdk4TDQ4QOFmqhtYGgE//ItzWm30oTau+wpAqw9Sl6fhYs5VFxoHR3GQNA=="
+    "version": "2.0.0",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-gas-city/-/paseo-gas-city-2.0.0.tgz",
+    "integrity": "sha512-RSu+kn1Pdyu/xbB4uC9cdzV95qI26Lcu49/Ktdfdm26XASaSCb+omZ1X8hpjzvRpRjc7qeCf5ivjnB5Chb9/EQ=="
   },
   "repository": {
     "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/paseo-gas-city",
-    "commit": "1a393debaa3dad7e67cfe22720517166f67c596a"
+    "commit": "10766d8374dd543ba36a66c2028c3ac3316c4633"
   },
   "categories": [
     "orchestration",
@@ -17,12 +17,13 @@
   ],
   "submittedAt": "2026-09-11",
   "submittedBy": "omercnet",
-  "reviewedAt": "2026-10-08",
+  "publishedAt": "2026-09-11",
+  "reviewedAt": "2026-10-11",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-gas-city/docs/images/paseo-gas-city-wide-overview.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-gas-city/docs/images/paseo-gas-city-wide-events.png",
-      "https://raw.githubusercontent.com/omercnet/paseo-plugins/main/paseo-gas-city/docs/images/paseo-gas-city-compact-overview.png"
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-gas-city/docs/images/paseo-gas-city-wide-overview.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-gas-city/docs/images/paseo-gas-city-wide-events.png",
+      "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-gas-city/docs/images/paseo-gas-city-compact-overview.png"
     ]
   }
 }
