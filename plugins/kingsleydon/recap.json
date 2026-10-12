@@ -1,13 +1,15 @@
 {
   "id": "kingsleydon/recap",
   "artifact": {
-    "kind": "git",
-    "remote": "https://github.com/kingsleydon/paseo-recap.git",
-    "commit": "d5349c600a42c62c4b428b864b1fe53956aa57c3"
+    "kind": "npm",
+    "package": "paseo-recap",
+    "version": "0.2.1",
+    "resolved": "https://registry.npmjs.org/paseo-recap/-/paseo-recap-0.2.1.tgz",
+    "integrity": "sha512-Z7GewFK0z0vKdTAeqCsMQXWvAZa7F48m40oVNwHsvKURlWS/Bg1ruV71Gt8NwJ+EW33ZiSeS9a8MKBtZkevcug=="
   },
   "repository": {
     "url": "https://github.com/kingsleydon/paseo-recap",
-    "commit": "d5349c600a42c62c4b428b864b1fe53956aa57c3"
+    "commit": "cdc3dc31046c2311f29b2a8ee148dbd84e0f8b5e"
   },
   "categories": [
     "utils"
@@ -15,12 +17,12 @@
   "submittedAt": "2026-10-12",
   "submittedBy": "kingsleydon",
   "publishedAt": "2026-10-12",
-  "reviewedAt": "2026-10-12",
+  "reviewedAt": "2026-10-12T14:09:32Z",
   "listing": {
     "name": "Recap",
     "media": [
-      "https://raw.githubusercontent.com/kingsleydon/paseo-recap/d5349c600a42c62c4b428b864b1fe53956aa57c3/docs/images/recap.png"
-    ],
-    "description": "Writes a short recap of each agent's goal, progress, and next step after every turn."
+      "https://raw.githubusercontent.com/kingsleydon/paseo-recap/cdc3dc31046c2311f29b2a8ee148dbd84e0f8b5e/docs/images/recap.png",
+      "https://raw.githubusercontent.com/kingsleydon/paseo-recap/cdc3dc31046c2311f29b2a8ee148dbd84e0f8b5e/docs/images/recap-card.png"
+    ]
   }
 }
