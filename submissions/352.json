@@ -1,0 +1,12 @@
+{
+  "issue": 352,
+  "title": "Recap",
+  "submittedBy": "kingsleydon",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/kingsleydon/paseo-recap"
+  },
+  "categories": [
+    "utils"
+  ]
+}
