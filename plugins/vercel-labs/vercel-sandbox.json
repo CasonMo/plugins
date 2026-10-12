@@ -13,8 +13,8 @@
     "daemon-management",
     "sidebar"
   ],
-  "submittedAt": "2026-10-12",
-  "reviewedAt": "2026-10-12",
+  "submittedAt": "2026-10-12T11:38:00Z",
+  "reviewedAt": "2026-10-12T11:38:00Z",
   "listing": {
     "name": "Vercel Sandbox",
     "description": "Create and manage persistent Vercel Sandbox hosts for Codex, Claude Code, OpenCode, and Pi through Vercel AI Gateway.",

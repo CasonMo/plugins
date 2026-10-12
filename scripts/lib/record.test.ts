@@ -86,8 +86,19 @@ test("reports every problem at once", () => {
   );
   assert.throws(
     () => parseRecord({ ...valid, submittedAt: "yesterday" }, known),
-    /submittedAt must be YYYY-MM-DD/,
+    /submittedAt must be YYYY-MM-DD or an ISO 8601 timestamp/,
   );
+});
+
+test("record dates accept a day or a zoned ISO 8601 timestamp", () => {
+  for (const date of ["2026-10-12", "2026-10-12T11:42:00Z", "2026-10-12T11:42:00.123+02:00"]) {
+    const record = parseRecord({ ...valid, submittedAt: date, reviewedAt: date }, known);
+    assert.equal(record.submittedAt, date);
+    assert.equal(record.reviewedAt, date);
+  }
+  for (const date of ["2026-10-12T11:42:00", "2026-10-12 11:42:00Z", "2026-13-01"]) {
+    assert.throws(() => parseRecord({ ...valid, reviewedAt: date }, known), /reviewedAt must be/);
+  }
 });
 
 test("rejects a directory with duplicate packages or mismatched file names", () => {

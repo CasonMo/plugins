@@ -3,7 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { githubOwner } from "./repository.ts";
 import { parseMedia } from "./media.ts";
-import { isIsoDate } from "./dates.ts";
+import { isRecordDate, RECORD_DATE_FORMAT } from "./dates.ts";
 
 /** One file in plugins/. Humans edit categories and listing; the bot writes the rest. */
 export interface PluginRecord {
@@ -83,10 +83,10 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
   const submittedAt = required("submittedAt");
   const reviewedAt = required("reviewedAt");
   const submittedBy = str("submittedBy");
-  if (value.submittedAt !== undefined && !isIsoDate(value.submittedAt))
-    problems.push("submittedAt must be YYYY-MM-DD");
-  if (value.reviewedAt !== undefined && !isIsoDate(value.reviewedAt))
-    problems.push("reviewedAt must be YYYY-MM-DD");
+  if (value.submittedAt !== undefined && !isRecordDate(value.submittedAt))
+    problems.push(`submittedAt must be ${RECORD_DATE_FORMAT}`);
+  if (value.reviewedAt !== undefined && !isRecordDate(value.reviewedAt))
+    problems.push(`reviewedAt must be ${RECORD_DATE_FORMAT}`);
 
   let repository: PluginRecord["repository"];
   if (value.repository === undefined) problems.push("repository is required");

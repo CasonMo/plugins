@@ -43,7 +43,9 @@ owner, even when the npm publisher has a different name. `artifact` is the insta
 pin; `repository` is the browseable source and optional proven source commit.
 
 Humans edit categories and optional `listing` overrides (`name`, `description`,
-HTTPS PNG `icon`, HTTPS `media`). The bot writes artifact pins and review dates. The published
+HTTPS PNG `icon`, HTTPS `media`). The bot writes artifact pins and review dates.
+`submittedAt` and `reviewedAt` are `YYYY-MM-DD` or an ISO 8601 timestamp with a
+time zone, such as `2026-10-12T11:42:00Z`, when same-day listings need an order. The published
 index combines records with metadata from their pinned manifests. See
 [plugin metadata](#plugin-metadata) for fields and override precedence.
 
