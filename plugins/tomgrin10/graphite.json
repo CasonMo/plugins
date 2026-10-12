@@ -16,8 +16,10 @@
   ],
   "submittedAt": "2026-09-22",
   "submittedBy": "tomgrin10",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-12T13:37:37Z",
   "listing": {
-    "media": []
-  }
+    "media": [],
+    "description": "View Graphite pull requests and workspace stacks in Paseo, and start an agent to fix issues across a stack."
+  },
+  "publishedAt": "2026-09-22"
 }
