@@ -17,8 +17,9 @@
   "submittedAt": "2026-09-22",
   "submittedBy": "ZedRover",
   "publishedAt": "2026-09-22",
-  "reviewedAt": "2026-10-12T12:54:15Z",
+  "reviewedAt": "2026-10-12T13:41:21Z",
   "listing": {
-    "media": []
+    "media": [],
+    "description": "Render LaTeX formulas in Paseo conversations and preview TeX in a scratchpad while preserving source when copying."
   }
 }
