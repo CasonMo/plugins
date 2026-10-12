@@ -3,7 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { githubOwner } from "./repository.ts";
 import { parseMedia } from "./media.ts";
-import { isRecordDate, RECORD_DATE_FORMAT } from "./dates.ts";
+import { isRecordDate, isRecordTimestamp, RECORD_DATE_FORMAT, recordTime } from "./dates.ts";
 
 /** One file in plugins/. Humans edit categories and listing; the bot writes the rest. */
 export interface PluginRecord {
@@ -173,6 +173,25 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
     reviewedAt,
     ...(listing ? { listing } : {}),
   };
+}
+
+const RECORD_DATES = ["submittedAt", "publishedAt", "reviewedAt"] as const;
+
+/**
+ * Date rules across a change, against the record as listed on main (absent for a new record):
+ * submission and first listing times never change, and every date the change writes carries the time.
+ */
+export function recordDateProblems(record: PluginRecord, listed: Record<string, unknown> | undefined): string[] {
+  const problems: string[] = [];
+  for (const key of ["submittedAt", "publishedAt"] as const) {
+    if (listed && listed[key] !== record[key])
+      problems.push(`${key} must stay ${JSON.stringify(listed[key])}; an update moves reviewedAt only`);
+  }
+  for (const key of RECORD_DATES) {
+    if (record[key] !== listed?.[key] && !isRecordTimestamp(record[key]))
+      problems.push(`${key} must be a UTC timestamp, such as ${recordTime()}`);
+  }
+  return problems;
 }
 
 export function recordPath(id: string, dir = RECORDS_DIR): string {
