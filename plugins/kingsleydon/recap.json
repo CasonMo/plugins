@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-recap",
-    "version": "0.2.1",
-    "resolved": "https://registry.npmjs.org/paseo-recap/-/paseo-recap-0.2.1.tgz",
-    "integrity": "sha512-Z7GewFK0z0vKdTAeqCsMQXWvAZa7F48m40oVNwHsvKURlWS/Bg1ruV71Gt8NwJ+EW33ZiSeS9a8MKBtZkevcug=="
+    "version": "0.2.3",
+    "resolved": "https://registry.npmjs.org/paseo-recap/-/paseo-recap-0.2.3.tgz",
+    "integrity": "sha512-o9fli+0qqsJva4wgfFnpleKQcO4JXEx+9Aty1gQ2oWhNUECiwzfjMGh8UX9s/0KTdGaSHnGbZTGsXeemaRizvw=="
   },
   "repository": {
     "url": "https://github.com/kingsleydon/paseo-recap",
-    "commit": "cdc3dc31046c2311f29b2a8ee148dbd84e0f8b5e"
+    "commit": "4c103bca7c4eaa9b86351b185161bf101f54361b"
   },
   "categories": [
     "utils"
@@ -17,7 +17,7 @@
   "submittedAt": "2026-10-12",
   "submittedBy": "kingsleydon",
   "publishedAt": "2026-10-12",
-  "reviewedAt": "2026-10-12T14:09:32Z",
+  "reviewedAt": "2026-10-12T23:39:27Z",
   "listing": {
     "name": "Recap",
     "media": [
