@@ -3,7 +3,7 @@ import { mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { test } from "node:test";
-import { parseRecord, readRecords, serializeRecord, writeRecord } from "./record.ts";
+import { parseRecord, readRecords, recordDateProblems, serializeRecord, writeRecord } from "./record.ts";
 
 const known = new Set(["themes", "utils"]);
 const valid = {
@@ -102,6 +102,27 @@ test("record dates accept a day or a zoned ISO 8601 timestamp", () => {
     assert.throws(() => parseRecord({ ...valid, reviewedAt: date }, known), /reviewedAt must be/);
     assert.throws(() => parseRecord({ ...valid, publishedAt: date }, known), /publishedAt must be/);
   }
+});
+
+test("a new record must carry the time on every date", () => {
+  const stamped = { submittedAt: "2026-10-12T09:15:00Z", publishedAt: "2026-10-12T11:42:00Z", reviewedAt: "2026-10-12T11:42:00Z" };
+  assert.deepEqual(recordDateProblems(parseRecord({ ...valid, ...stamped }, known), undefined), []);
+  assert.deepEqual(
+    recordDateProblems(parseRecord({ ...valid, ...stamped, publishedAt: "2026-10-12", reviewedAt: "2026-10-12" }, known), undefined)
+      .map((problem) => problem.split(",")[0]),
+    ["publishedAt must be a UTC timestamp", "reviewedAt must be a UTC timestamp"],
+  );
+});
+
+test("an update keeps the submission and first listing times and stamps the new review", () => {
+  const listed = { ...valid };
+  const bumped = parseRecord({ ...valid, reviewedAt: "2026-10-14T05:17:03Z" }, known);
+  assert.deepEqual(recordDateProblems(bumped, listed), []);
+  assert.deepEqual(recordDateProblems(parseRecord({ ...valid, listing: { name: "Dracula" } }, known), listed), []);
+  assert.deepEqual(recordDateProblems(parseRecord({ ...valid, reviewedAt: "2026-10-14" }, known), listed)
+    .map((problem) => problem.split(",")[0]), ["reviewedAt must be a UTC timestamp"]);
+  assert.deepEqual(recordDateProblems(parseRecord({ ...bumped, publishedAt: "2026-10-14T05:17:03Z" }, known), listed),
+    ['publishedAt must stay "2026-09-20"; an update moves reviewedAt only']);
 });
 
 test("rejects a directory with duplicate packages or mismatched file names", () => {
