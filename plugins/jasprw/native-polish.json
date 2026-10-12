@@ -15,9 +15,12 @@
   ],
   "submittedAt": "2026-10-12T01:57:00Z",
   "submittedBy": "JasprW",
-  "reviewedAt": "2026-10-12T13:39:10Z",
+  "reviewedAt": "2026-10-12T17:04:01Z",
   "listing": {
-    "name": "Native Polish"
+    "name": "Native Polish",
+    "media": [
+      "https://raw.githubusercontent.com/JasprW/paseo-native-polish/dfefed9c2cd96ca5de2066a6c7a8fde8937ec3cd/docs/media/settings.png"
+    ]
   },
-  "publishedAt": "2026-10-12T13:39:10Z"
+  "publishedAt": "2026-10-12T17:04:01Z"
 }
