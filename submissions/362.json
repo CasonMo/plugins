@@ -1,0 +1,13 @@
+{
+  "issue": 362,
+  "title": "Submit: Bare git Worktrees",
+  "submittedBy": "vkrishtal91",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/vkrishtal91/paseo-bare-worktrees"
+  },
+  "categories": [
+    "git",
+    "workspaces"
+  ]
+}
