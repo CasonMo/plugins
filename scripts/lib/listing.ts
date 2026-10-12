@@ -45,16 +45,15 @@ export async function resolvePlugin(
 ): Promise<PublishedPluginDetail> {
   const files = await readArtifactFiles(client, record.artifact);
   const readme = requireOverview(validateOverview(files.overview, `${record.id}/OVERVIEW.md`), overview, record.id);
-  const metadata = resolveMetadata(files, record);
   const artifact = record.artifact;
   const doc = artifact.kind === "npm"
     ? resolveVersion(await client.packument(artifact.package), artifact.version)
     : undefined;
+  const metadata = resolveMetadata(files, record, doc ? doc.description?.trim() ?? "" : undefined);
   const date = new Date(record.reviewedAt).toISOString();
   return {
     id: record.id,
     ...metadata,
-    description: doc ? doc.description?.trim() ?? "" : metadata.description,
     artifact,
     ...(doc?.license ? { license: doc.license } : {}),
     repository: record.repository,

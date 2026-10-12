@@ -53,6 +53,22 @@ test("publication preserves author, overview, and review dates", async () => {
   assert.equal(plugin.installs, undefined);
 });
 
+test("publication keeps the time of timestamped record dates", async () => {
+  const client: NpmClient = {
+    async packument() { return { name: doc.name, "dist-tags": { latest: doc.version }, versions: { [doc.version]: doc }, time: {} }; },
+    async file(_name, _version, path) { return path === "paseo-plugin.json" ? "{}" : null; },
+    async provenance() { return null; },
+    async tarball() { throw new Error("Not needed"); },
+  };
+  const plugin = await resolvePlugin(client, {
+    ...record, submittedAt: "2026-10-12T11:42:00Z", reviewedAt: "2026-10-12T13:05:30+02:00",
+  }, "Overview.");
+  assert.equal(plugin.submittedAt, "2026-10-12T11:42:00.000Z");
+  assert.equal(plugin.reviewedAt, "2026-10-12T11:05:30.000Z");
+  assert.equal(plugin.publishedAt, "2026-10-12T11:05:30.000Z");
+  assert.equal(plugin.updatedAt, "2026-10-12T11:05:30.000Z");
+});
+
 test("a tagged monorepo artifact is pinned, validated and built through both submission syntaxes", async () => {
   const { mkdtempSync, mkdirSync, writeFileSync, readFileSync, cpSync, rmSync } =
     await import("node:fs");

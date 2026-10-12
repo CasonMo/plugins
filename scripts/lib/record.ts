@@ -3,7 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { githubOwner } from "./repository.ts";
 import { parseMedia } from "./media.ts";
-import { isIsoDate } from "./dates.ts";
+import { isRecordDate, RECORD_DATE_FORMAT } from "./dates.ts";
 
 /** One file in plugins/. Humans edit categories and listing; the bot writes the rest. */
 export interface PluginRecord {
@@ -26,6 +26,7 @@ export interface PluginRecord {
 
 export interface PluginListingOverrides {
   name?: string;
+  description?: string;
   icon?: string;
   media?: string[];
 }
@@ -82,10 +83,10 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
   const submittedAt = required("submittedAt");
   const reviewedAt = required("reviewedAt");
   const submittedBy = str("submittedBy");
-  if (value.submittedAt !== undefined && !isIsoDate(value.submittedAt))
-    problems.push("submittedAt must be YYYY-MM-DD");
-  if (value.reviewedAt !== undefined && !isIsoDate(value.reviewedAt))
-    problems.push("reviewedAt must be YYYY-MM-DD");
+  if (value.submittedAt !== undefined && !isRecordDate(value.submittedAt))
+    problems.push(`submittedAt must be ${RECORD_DATE_FORMAT}`);
+  if (value.reviewedAt !== undefined && !isRecordDate(value.reviewedAt))
+    problems.push(`reviewedAt must be ${RECORD_DATE_FORMAT}`);
 
   let repository: PluginRecord["repository"];
   if (value.repository === undefined) problems.push("repository is required");
@@ -135,6 +136,11 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
           problems.push("listing.name must be a non-empty string");
         else listing.name = raw.name;
       }
+      if (raw.description !== undefined) {
+        if (typeof raw.description !== "string" || !raw.description.trim())
+          problems.push("listing.description must be a non-empty string");
+        else listing.description = raw.description;
+      }
       if (raw.icon !== undefined) {
         if (typeof raw.icon !== "string" || !/^https:\/\/\S+\.png$/i.test(raw.icon))
           problems.push("listing.icon must be an https PNG URL");
@@ -145,7 +151,7 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
         catch (error) { problems.push(`listing.${(error as Error).message}`); }
       }
       for (const key of Object.keys(raw)) {
-        if (!["name", "icon", "media"].includes(key))
+        if (!["name", "description", "icon", "media"].includes(key))
           problems.push(`unknown field "listing.${key}"`);
       }
     }
