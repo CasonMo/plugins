@@ -66,7 +66,7 @@ function fixture(t: TestContext, kind: "npm" | "git", manifest: unknown, listing
       ? { kind, package: doc.name, version: doc.version, resolved: doc.dist.tarball, integrity: doc.dist.integrity }
       : { kind, remote, commit, pluginPath },
     repository: { url: "https://github.com/acme/manifest" },
-    submittedAt: "2026-10-07", reviewedAt: "2026-10-07",
+    submittedAt: "2026-10-07", publishedAt: "2026-10-07", reviewedAt: "2026-10-07",
   };
   const base = kind === "npm" ? "https://cdn.jsdelivr.net/npm/@acme/example@1.0.0/"
     : `https://github.com/acme/manifest/raw/${commit}/${pluginPath}/`;

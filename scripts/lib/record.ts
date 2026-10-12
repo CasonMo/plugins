@@ -18,7 +18,9 @@ export interface PluginRecord {
   submittedAt: string;
   /** GitHub login of whoever opened the submission issue. */
   submittedBy?: string;
-  /** Date the pinned version was approved. */
+  /** When the first reviewed version was approved and listed. Updates keep it. */
+  publishedAt: string;
+  /** When the pinned version was approved. Updates move it. */
   reviewedAt: string;
   /** Per-field overrides for metadata from the pinned paseo-plugin.json. */
   listing?: PluginListingOverrides;
@@ -44,6 +46,7 @@ const RECORD_KEYS = [
   "categories",
   "submittedAt",
   "submittedBy",
+  "publishedAt",
   "reviewedAt",
   "listing",
 ] as const;
@@ -81,12 +84,13 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
     problems.push(String(error));
   }
   const submittedAt = required("submittedAt");
+  const publishedAt = required("publishedAt");
   const reviewedAt = required("reviewedAt");
   const submittedBy = str("submittedBy");
-  if (value.submittedAt !== undefined && !isRecordDate(value.submittedAt))
-    problems.push(`submittedAt must be ${RECORD_DATE_FORMAT}`);
-  if (value.reviewedAt !== undefined && !isRecordDate(value.reviewedAt))
-    problems.push(`reviewedAt must be ${RECORD_DATE_FORMAT}`);
+  for (const key of ["submittedAt", "publishedAt", "reviewedAt"]) {
+    if (value[key] !== undefined && !isRecordDate(value[key]))
+      problems.push(`${key} must be ${RECORD_DATE_FORMAT}`);
+  }
 
   let repository: PluginRecord["repository"];
   if (value.repository === undefined) problems.push("repository is required");
@@ -165,6 +169,7 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
     categories: categories as string[],
     submittedAt,
     ...(submittedBy ? { submittedBy } : {}),
+    publishedAt,
     reviewedAt,
     ...(listing ? { listing } : {}),
   };

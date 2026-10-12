@@ -33,6 +33,7 @@ const record: PluginRecord = {
   },
   categories: ["themes"],
   submittedAt: "2026-09-17",
+  publishedAt: "2026-09-20",
   reviewedAt: "2026-10-03",
 };
 
@@ -48,12 +49,12 @@ test("publication preserves author, overview, and review dates", async () => {
   assert.equal(plugin.description, doc.description);
   assert.deepEqual(plugin.author, { npm: "omercnet", name: "Omer Cohen", github: "omercnet" });
   assert.equal(plugin.readme, "Overview.");
-  assert.equal(plugin.publishedAt, "2026-10-03T00:00:00.000Z");
+  assert.equal(plugin.publishedAt, "2026-09-20T00:00:00.000Z");
   assert.equal(plugin.updatedAt, "2026-10-03T00:00:00.000Z");
   assert.equal(plugin.installs, undefined);
 });
 
-test("publication keeps the time of timestamped record dates", async () => {
+test("publication keeps the first listing time when a later review updates the plugin", async () => {
   const client: NpmClient = {
     async packument() { return { name: doc.name, "dist-tags": { latest: doc.version }, versions: { [doc.version]: doc }, time: {} }; },
     async file(_name, _version, path) { return path === "paseo-plugin.json" ? "{}" : null; },
@@ -61,12 +62,13 @@ test("publication keeps the time of timestamped record dates", async () => {
     async tarball() { throw new Error("Not needed"); },
   };
   const plugin = await resolvePlugin(client, {
-    ...record, submittedAt: "2026-10-12T11:42:00Z", reviewedAt: "2026-10-12T13:05:30+02:00",
+    ...record, submittedAt: "2026-10-12T09:15:00Z", publishedAt: "2026-10-12T11:42:00Z",
+    reviewedAt: "2026-10-14T13:05:30+02:00",
   }, "Overview.");
-  assert.equal(plugin.submittedAt, "2026-10-12T11:42:00.000Z");
-  assert.equal(plugin.reviewedAt, "2026-10-12T11:05:30.000Z");
-  assert.equal(plugin.publishedAt, "2026-10-12T11:05:30.000Z");
-  assert.equal(plugin.updatedAt, "2026-10-12T11:05:30.000Z");
+  assert.equal(plugin.submittedAt, "2026-10-12T09:15:00.000Z");
+  assert.equal(plugin.publishedAt, "2026-10-12T11:42:00.000Z");
+  assert.equal(plugin.reviewedAt, "2026-10-14T11:05:30.000Z");
+  assert.equal(plugin.updatedAt, "2026-10-14T11:05:30.000Z");
 });
 
 test("a tagged monorepo artifact is pinned, validated and built through both submission syntaxes", async () => {

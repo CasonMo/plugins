@@ -22,6 +22,7 @@ const valid = {
   categories: ["themes"],
   submittedAt: "2026-09-17",
   submittedBy: "omercnet",
+  publishedAt: "2026-09-20",
   reviewedAt: "2026-10-03",
 };
 
@@ -92,12 +93,14 @@ test("reports every problem at once", () => {
 
 test("record dates accept a day or a zoned ISO 8601 timestamp", () => {
   for (const date of ["2026-10-12", "2026-10-12T11:42:00Z", "2026-10-12T11:42:00.123+02:00"]) {
-    const record = parseRecord({ ...valid, submittedAt: date, reviewedAt: date }, known);
+    const record = parseRecord({ ...valid, submittedAt: date, publishedAt: date, reviewedAt: date }, known);
     assert.equal(record.submittedAt, date);
+    assert.equal(record.publishedAt, date);
     assert.equal(record.reviewedAt, date);
   }
   for (const date of ["2026-10-12T11:42:00", "2026-10-12 11:42:00Z", "2026-13-01"]) {
     assert.throws(() => parseRecord({ ...valid, reviewedAt: date }, known), /reviewedAt must be/);
+    assert.throws(() => parseRecord({ ...valid, publishedAt: date }, known), /publishedAt must be/);
   }
 });
 
