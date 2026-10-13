@@ -1,0 +1,13 @@
+{
+  "issue": 397,
+  "title": "Side question",
+  "submittedBy": "pocharlies",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/pocharlies-org/paseo-btw"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
