@@ -1,0 +1,15 @@
+{
+  "issue": 383,
+  "title": "Agent Lobby",
+  "submittedBy": "linhmh8",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/linhmh8/agent-lobby"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar",
+    "extras"
+  ]
+}
