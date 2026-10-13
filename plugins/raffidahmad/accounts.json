@@ -1,0 +1,23 @@
+{
+  "id": "raffidahmad/accounts",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/raffidahmad/paseo-accounts.git",
+    "commit": "b5f5c8f5ce2c7079e5822589bb482718fe23e7ea"
+  },
+  "repository": {
+    "url": "https://github.com/raffidahmad/paseo-accounts",
+    "commit": "b5f5c8f5ce2c7079e5822589bb482718fe23e7ea"
+  },
+  "categories": [
+    "providers"
+  ],
+  "submittedAt": "2026-10-13T19:10:43Z",
+  "submittedBy": "raffidahmad",
+  "publishedAt": "2026-10-13T19:32:32Z",
+  "reviewedAt": "2026-10-13T19:32:32Z",
+  "listing": {
+    "name": "Paseo Accounts",
+    "description": "Add separate accounts and profiles to Paseo providers, with in-app sign-in and usage readings for Claude and ChatGPT."
+  }
+}
