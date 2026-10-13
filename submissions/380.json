@@ -1,0 +1,14 @@
+{
+  "issue": 380,
+  "title": "SSH port forwarding",
+  "submittedBy": "alessandrocornacchia",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/alessandrocornacchia/paseo-port-forward"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "utils"
+  ]
+}
