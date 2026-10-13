@@ -4,6 +4,8 @@ Rendering happens on the web client only. The daemon turns each formula into dra
 
 A message that contains a complete formula is displayed by the plugin's own limited Markdown renderer instead of Paseo's. It is not a full CommonMark implementation, and images appear as their label and URL without being fetched. Messages without a formula keep Paseo's renderer.
 
+On web, clicking a Markdown file link or an inline code path such as `client/message.tsx:105` asks Paseo to open that file. Relative paths resolve against the agent’s working directory. Bare filenames in inline code remain plain code. File opening depends on Paseo’s workspace pane internals and is unavailable on native clients or outside a workspace pane.
+
 A scratchpad, opened from the RaTeX sidebar entry or workspace panel, lets you type TeX and preview it inline or as a display formula.
 
 *This plugin entry was imported from [paseo.cafe](https://paseo.cafe/plugins/ratex-formula).*
