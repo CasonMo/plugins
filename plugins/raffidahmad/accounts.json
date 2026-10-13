@@ -14,10 +14,13 @@
   ],
   "submittedAt": "2026-10-13T19:10:43Z",
   "submittedBy": "raffidahmad",
-  "publishedAt": "2026-10-13T19:32:32Z",
-  "reviewedAt": "2026-10-13T19:32:32Z",
+  "publishedAt": "2026-10-13T20:03:46Z",
+  "reviewedAt": "2026-10-13T20:03:46Z",
   "listing": {
     "name": "Paseo Accounts",
-    "description": "Add separate accounts and profiles to Paseo providers, with in-app sign-in and usage readings for Claude and ChatGPT."
+    "description": "Add separate accounts and profiles to Paseo providers, with in-app sign-in and usage readings for Claude and ChatGPT.",
+    "media": [
+      "https://raw.githubusercontent.com/raffidahmad/paseo-accounts/b67ffb93ec829957c017b4c66860b7de525b5f6a/images/settings.png"
+    ]
   }
 }
