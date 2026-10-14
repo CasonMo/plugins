@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-terminal-integration",
-    "version": "0.5.0",
-    "resolved": "https://registry.npmjs.org/paseo-terminal-integration/-/paseo-terminal-integration-0.5.0.tgz",
-    "integrity": "sha512-hBueOl4Rzl4tc/lRaRUuV9FmmbnV8EwnKd6NK1yCwb2qWufRmHvAaYndsw856o+7NKY6sYXvG8UqMsVfemiZ4g=="
+    "version": "0.5.3",
+    "resolved": "https://registry.npmjs.org/paseo-terminal-integration/-/paseo-terminal-integration-0.5.3.tgz",
+    "integrity": "sha512-BRK44sLKbFn7UpWG8Dm0F5PWi6Dn5SJDmVL8ke+okpnWV3EJ7+09YGyr9EmRvryK70X1hYFr8dxKeOQaL4Db/A=="
   },
   "repository": {
     "url": "https://github.com/keefeere/paseo-terminal-integration",
-    "commit": "e1721060e876810fee0972159324722931d135cf"
+    "commit": "0c468bb4ee8736ac452675b37aa2912bc6853708"
   },
   "categories": [
     "utils"
@@ -17,8 +17,11 @@
   "submittedAt": "2026-09-30",
   "submittedBy": "keefeere",
   "publishedAt": "2026-09-30",
-  "reviewedAt": "2026-09-30",
+  "reviewedAt": "2026-10-14T12:34:33Z",
   "listing": {
-    "media": []
+    "media": [
+      "https://raw.githubusercontent.com/keefeere/paseo-terminal-integration/13a71df5070f891a231950de798e8c0a4885a60e/docs/media/run-running.png",
+      "https://raw.githubusercontent.com/keefeere/paseo-terminal-integration/13a71df5070f891a231950de798e8c0a4885a60e/docs/media/run-stopped.png"
+    ]
   }
 }
