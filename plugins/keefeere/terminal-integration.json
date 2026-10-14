@@ -17,8 +17,12 @@
   "submittedAt": "2026-09-30",
   "submittedBy": "keefeere",
   "publishedAt": "2026-09-30",
-  "reviewedAt": "2026-10-13T22:03:24Z",
+  "reviewedAt": "2026-10-14T12:38:21Z",
   "listing": {
-    "media": []
+    "media": [
+      "https://raw.githubusercontent.com/keefeere/paseo-terminal-integration/13a71df5070f891a231950de798e8c0a4885a60e/docs/media/run-running.png",
+      "https://raw.githubusercontent.com/keefeere/paseo-terminal-integration/13a71df5070f891a231950de798e8c0a4885a60e/docs/media/run-stopped.png",
+      "https://raw.githubusercontent.com/keefeere/paseo-terminal-integration/13a71df5070f891a231950de798e8c0a4885a60e/docs/media/run-output-history.png"
+    ]
   }
 }
