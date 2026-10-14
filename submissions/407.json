@@ -1,0 +1,14 @@
+{
+  "issue": 407,
+  "title": "Prompt suggestions",
+  "submittedBy": "961853266hyt",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/961853266hyt/paseo-plugins",
+    "ref": "prompt-suggestions-v0.1.0",
+    "pluginPath": "plugins/prompt-suggestions"
+  },
+  "categories": [
+    "utils"
+  ]
+}
