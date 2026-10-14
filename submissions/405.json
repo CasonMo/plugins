@@ -1,0 +1,12 @@
+{
+  "issue": 405,
+  "title": "Quick prompts",
+  "submittedBy": "kingsleydon",
+  "source": {
+    "kind": "npm",
+    "package": "paseo-quick-prompts"
+  },
+  "categories": [
+    "utils"
+  ]
+}
