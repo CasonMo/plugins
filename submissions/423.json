@@ -1,0 +1,12 @@
+{
+  "issue": 423,
+  "title": "Top",
+  "submittedBy": "xpufx",
+  "source": {
+    "kind": "npm",
+    "package": "@xpufx/paseo-top"
+  },
+  "categories": [
+    "utils"
+  ]
+}
