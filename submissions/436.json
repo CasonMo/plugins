@@ -1,0 +1,13 @@
+{
+  "issue": 436,
+  "title": "Chat Skins",
+  "submittedBy": "devserra",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/devserra/paseo-chat-skins"
+  },
+  "categories": [
+    "themes",
+    "utils"
+  ]
+}
