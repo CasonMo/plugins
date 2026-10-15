@@ -1,0 +1,13 @@
+{
+  "issue": 452,
+  "title": "paseo-opencode-zen-usage",
+  "submittedBy": "ilteoood",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ilteoood/paseo-opencode-zen-usage"
+  },
+  "categories": [
+    "providers",
+    "utils"
+  ]
+}
