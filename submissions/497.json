@@ -1,0 +1,14 @@
+{
+  "issue": 497,
+  "title": "Machine Status",
+  "submittedBy": "dutchakdev",
+  "source": {
+    "kind": "npm",
+    "package": "paseo-plugin-machine-status",
+    "version": "0.2.0"
+  },
+  "categories": [
+    "daemon-management",
+    "utils"
+  ]
+}
