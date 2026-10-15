@@ -2,7 +2,7 @@
 
 Customize Paseo’s chat timeline, rich text, themes and fonts from a dashboard with live previews. Tool calls become compact rows with expandable output or diffs, thoughts and calls can merge between replies, and image-only replies become thumbnails. Mariana, Paper and Dusk presets can be edited with contrast checks.
 
-Requires Paseo 0.11.2 or newer. Open Chat Polish in the sidebar to adjust themes, messages, steps and rich text. For individual tool rows, set Settings → Appearance → Tool call display to Detailed. Theme and font changes apply app-wide and can reload the app; timeline preferences save as you choose them.
+Requires Paseo 0.11.2 or newer and npm on the daemon for the plugin’s locked dependency preparation. Open Chat Polish in the sidebar to adjust themes, messages, steps and rich text. For individual tool rows, set Settings → Appearance → Tool call display to Detailed. Theme and font changes apply app-wide and can reload the app; timeline preferences save as you choose them.
 
 ## Access and actions
 
