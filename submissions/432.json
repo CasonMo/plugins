@@ -1,0 +1,12 @@
+{
+  "issue": 432,
+  "title": "Diff Review",
+  "submittedBy": "NickCis",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/NickCis/paseo-plugin-diff-review"
+  },
+  "categories": [
+    "git"
+  ]
+}
