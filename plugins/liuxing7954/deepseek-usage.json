@@ -16,5 +16,11 @@
   "submittedAt": "2026-10-15T09:09:34Z",
   "submittedBy": "liuxing7954",
   "publishedAt": "2026-10-15T10:02:14Z",
-  "reviewedAt": "2026-10-15T10:02:14Z"
+  "reviewedAt": "2026-10-15T10:02:14Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/liuxing7954/paseo-deepseek-usage/b9ce4cf8fcfbd76ad1e6fafea70af89c553fa18b/assets/screenshot-usage.png",
+      "https://raw.githubusercontent.com/liuxing7954/paseo-deepseek-usage/b9ce4cf8fcfbd76ad1e6fafea70af89c553fa18b/assets/screenshot-sidebar.png"
+    ]
+  }
 }
