@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "@xpufx/paseo-top",
-    "version": "0.4.5",
-    "resolved": "https://registry.npmjs.org/@xpufx/paseo-top/-/paseo-top-0.4.5.tgz",
-    "integrity": "sha512-eUk9HNhqFZ+9tIgURJTTNy6goVQP4daNurg2HPwa61+XaKzT0z8HANXoaB9uqh7ZxltaE+8+gkx5nz4v2wqzRQ=="
+    "version": "0.4.7",
+    "resolved": "https://registry.npmjs.org/@xpufx/paseo-top/-/paseo-top-0.4.7.tgz",
+    "integrity": "sha512-k1S0y0Tas1wCAlUL8Y6MdHxtFKGa+9eLumzeosOiiWzGzA2LtAT4XlGep0gQSOGAY68IDL9+coaXAgn6W/o/8w=="
   },
   "repository": {
     "url": "https://github.com/xpufx/paseo"
@@ -15,12 +15,12 @@
   ],
   "submittedAt": "2026-10-14T15:59:13Z",
   "submittedBy": "xpufx",
-  "publishedAt": "2026-10-14T16:34:17Z",
-  "reviewedAt": "2026-10-14T16:34:17Z",
+  "publishedAt": "2026-10-15T01:03:50Z",
+  "reviewedAt": "2026-10-15T01:03:50Z",
   "listing": {
     "media": [
-      "https://cdn.jsdelivr.net/npm/@xpufx/paseo-top@0.4.5/screenshots/1-paseo-top-modal-system.jpg",
-      "https://cdn.jsdelivr.net/npm/@xpufx/paseo-top@0.4.5/screenshots/paseo-top-dashboard.jpg"
+      "https://cdn.jsdelivr.net/npm/@xpufx/paseo-top@0.4.7/screenshots/1-paseo-top-modal-system.jpg",
+      "https://cdn.jsdelivr.net/npm/@xpufx/paseo-top@0.4.7/screenshots/paseo-top-dashboard.jpg"
     ]
   }
 }
