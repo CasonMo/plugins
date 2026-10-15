@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/kostilal/paseo-claude-accounts.git",
-    "commit": "f03a713109a17bd51654688a5067a0bfa8551e89",
-    "tag": "v0.1.0"
+    "commit": "aef0cb95379fd75d1c90b04162ab0999c14d06d4",
+    "tag": "v0.1.1"
   },
   "repository": {
     "url": "https://github.com/kostilal/paseo-claude-accounts",
-    "commit": "f03a713109a17bd51654688a5067a0bfa8551e89"
+    "commit": "aef0cb95379fd75d1c90b04162ab0999c14d06d4"
   },
   "categories": [
     "providers",
@@ -18,5 +18,5 @@
   "submittedAt": "2026-10-15T13:07:59Z",
   "submittedBy": "kostilal",
   "publishedAt": "2026-10-15T13:38:06Z",
-  "reviewedAt": "2026-10-15T13:38:06Z"
+  "reviewedAt": "2026-10-15T15:33:23Z"
 }
