@@ -1,0 +1,12 @@
+{
+  "issue": 434,
+  "title": "Prompt suggestions",
+  "submittedBy": "961853266hyt",
+  "source": {
+    "kind": "npm",
+    "package": "paseo-prompt-suggestions"
+  },
+  "categories": [
+    "utils"
+  ]
+}
