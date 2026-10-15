@@ -1,0 +1,14 @@
+{
+  "issue": 446,
+  "title": "Paseo Mesh",
+  "submittedBy": "jtsang4",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/jtsang4/paseo-mesh"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "sidebar"
+  ]
+}
