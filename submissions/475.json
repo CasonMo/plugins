@@ -1,0 +1,13 @@
+{
+  "issue": 475,
+  "title": "Turn speed",
+  "submittedBy": "Drenalol",
+  "source": {
+    "kind": "npm",
+    "package": "paseo-turn-speed"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
