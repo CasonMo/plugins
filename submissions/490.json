@@ -1,0 +1,14 @@
+{
+  "issue": 490,
+  "title": "Chat Polish",
+  "submittedBy": "lthieu96",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/lthieu96/paseo-chat-polish"
+  },
+  "categories": [
+    "themes",
+    "extras",
+    "utils"
+  ]
+}
