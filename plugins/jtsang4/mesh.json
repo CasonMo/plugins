@@ -1,9 +1,11 @@
 {
   "id": "jtsang4/mesh",
   "artifact": {
-    "kind": "git",
-    "remote": "https://github.com/jtsang4/paseo-mesh.git",
-    "commit": "f66e5cfa34356a7c3103e746969d0e171a7390e9"
+    "kind": "npm",
+    "package": "paseo-mesh",
+    "version": "0.1.1",
+    "resolved": "https://registry.npmjs.org/paseo-mesh/-/paseo-mesh-0.1.1.tgz",
+    "integrity": "sha512-Aez8xgQdJ//Ci9YPHudFfzG1tSh3oR73MK9Jar1z/7F4ufwBNRLzI98LfwQzQ60W2FCDwfXmXvvSZFrczASP9g=="
   },
   "repository": {
     "url": "https://github.com/jtsang4/paseo-mesh",
@@ -17,5 +19,5 @@
   "submittedAt": "2026-10-15T06:24:22Z",
   "submittedBy": "jtsang4",
   "publishedAt": "2026-10-15T06:32:55Z",
-  "reviewedAt": "2026-10-15T06:32:55Z"
+  "reviewedAt": "2026-10-15T07:10:57Z"
 }
