@@ -1,0 +1,21 @@
+{
+  "id": "jtsang4/mesh",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/jtsang4/paseo-mesh.git",
+    "commit": "f66e5cfa34356a7c3103e746969d0e171a7390e9"
+  },
+  "repository": {
+    "url": "https://github.com/jtsang4/paseo-mesh",
+    "commit": "f66e5cfa34356a7c3103e746969d0e171a7390e9"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-15T06:24:22Z",
+  "submittedBy": "jtsang4",
+  "publishedAt": "2026-10-15T06:32:55Z",
+  "reviewedAt": "2026-10-15T06:32:55Z"
+}
