@@ -1,0 +1,13 @@
+{
+  "issue": 501,
+  "title": "Cloudflare Public Link",
+  "submittedBy": "odoo-mvds",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/applixodoo/paseo-cloudflare-public-link"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
