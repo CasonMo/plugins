@@ -1,0 +1,15 @@
+{
+  "issue": 492,
+  "title": "Claude Accounts 0.1.1",
+  "submittedBy": "kostilal",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/kostilal/paseo-claude-accounts",
+    "ref": "v0.1.1"
+  },
+  "categories": [
+    "providers",
+    "sidebar",
+    "utils"
+  ]
+}
