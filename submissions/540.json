@@ -1,0 +1,13 @@
+{
+  "issue": 540,
+  "title": "Devin usage",
+  "submittedBy": "ryosuz",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ryosuz/paseo-devin-usage"
+  },
+  "categories": [
+    "providers",
+    "utils"
+  ]
+}
