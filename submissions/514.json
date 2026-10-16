@@ -1,0 +1,12 @@
+{
+  "issue": 514,
+  "title": "agent-usage",
+  "submittedBy": "CasonMo",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/CasonMo/paseo-agent-usage"
+  },
+  "categories": [
+    "utils"
+  ]
+}
