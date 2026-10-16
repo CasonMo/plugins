@@ -1,0 +1,22 @@
+{
+  "id": "zedobaia/resources",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ZedObaia/paseo-plugins.git",
+    "commit": "6d992901b73265876dacfc1db708c7aa7a178ccb",
+    "pluginPath": "plugins/resources"
+  },
+  "repository": {
+    "url": "https://github.com/ZedObaia/paseo-plugins",
+    "commit": "6d992901b73265876dacfc1db708c7aa7a178ccb"
+  },
+  "categories": [
+    "daemon-management",
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-16T22:29:43Z",
+  "submittedBy": "ZedObaia",
+  "publishedAt": "2026-10-16T22:32:19Z",
+  "reviewedAt": "2026-10-16T22:32:19Z"
+}
