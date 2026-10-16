@@ -1,0 +1,13 @@
+{
+  "issue": 510,
+  "title": "Schedule Submit",
+  "submittedBy": "cybershape",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/cybershape/paseo-schedule-submit"
+  },
+  "categories": [
+    "orchestration",
+    "utils"
+  ]
+}
