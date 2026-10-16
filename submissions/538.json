@@ -1,0 +1,12 @@
+{
+  "issue": 538,
+  "title": "agent-prompt",
+  "submittedBy": "CasonMo",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/CasonMo/paseo-agent-prompt"
+  },
+  "categories": [
+    "utils"
+  ]
+}
