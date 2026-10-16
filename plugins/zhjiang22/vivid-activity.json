@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/zhjiang22/paseo-plugins.git",
-    "commit": "7907b6a0c014224756126bbbf78c178b8896ce38",
+    "commit": "a330c04d25831863abab1464dbdd325bafc70a43",
     "pluginPath": "vivid-activity"
   },
   "repository": {
     "url": "https://github.com/zhjiang22/paseo-plugins",
-    "commit": "7907b6a0c014224756126bbbf78c178b8896ce38"
+    "commit": "a330c04d25831863abab1464dbdd325bafc70a43"
   },
   "categories": [
     "utils"
@@ -16,5 +16,5 @@
   "submittedAt": "2026-10-10",
   "submittedBy": "zhjiang22",
   "publishedAt": "2026-10-10",
-  "reviewedAt": "2026-10-15T09:39:15Z"
+  "reviewedAt": "2026-10-16T05:38:23Z"
 }
