@@ -1,0 +1,20 @@
+{
+  "id": "anh-chu/bg-jobs",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/anh-chu/paseo-plugin-bg-jobs.git",
+    "commit": "78c8ada2d5f07948847e35a55efb732079901b04"
+  },
+  "repository": {
+    "url": "https://github.com/anh-chu/paseo-plugin-bg-jobs",
+    "commit": "78c8ada2d5f07948847e35a55efb732079901b04"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T10:00:54Z",
+  "submittedBy": "anh-chu",
+  "publishedAt": "2026-10-18T10:13:17Z",
+  "reviewedAt": "2026-10-18T10:13:17Z"
+}
