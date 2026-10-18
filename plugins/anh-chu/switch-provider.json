@@ -1,0 +1,20 @@
+{
+  "id": "anh-chu/switch-provider",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/anh-chu/paseo-plugin-switch-provider.git",
+    "commit": "6631b60ce9af461016f3889e274b9e60acb60742"
+  },
+  "repository": {
+    "url": "https://github.com/anh-chu/paseo-plugin-switch-provider",
+    "commit": "6631b60ce9af461016f3889e274b9e60acb60742"
+  },
+  "categories": [
+    "providers",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T08:05:36.000Z",
+  "submittedBy": "anh-chu",
+  "publishedAt": "2026-10-18T09:01:47Z",
+  "reviewedAt": "2026-10-18T09:01:47Z"
+}
