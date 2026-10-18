@@ -16,5 +16,13 @@
   "submittedAt": "2026-09-29",
   "submittedBy": "stevecastaneda",
   "publishedAt": "2026-09-29",
-  "reviewedAt": "2026-10-11"
+  "reviewedAt": "2026-10-18T06:02:24Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/1-panel.png",
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/2-ticket.png",
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/3-question.png",
+      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/4-pill.png"
+    ]
+  }
 }
