@@ -1,0 +1,22 @@
+{
+  "id": "omercnet/top",
+  "artifact": {
+    "kind": "npm",
+    "package": "@omercnet/paseo-top",
+    "version": "0.1.0",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-top/-/paseo-top-0.1.0.tgz",
+    "integrity": "sha512-VjW9/wkkeobZtEjOa+mnScoRFr8m1gbWnYWgkn8qR/5okXjhazdjVKPnemlIGyMpThMel7BrPoEplfSir8VOhg=="
+  },
+  "repository": {
+    "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/top",
+    "commit": "1f816e888235c4f65face51c418729d8fe6816ae"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T06:32:51Z",
+  "submittedBy": "omercnet",
+  "publishedAt": "2026-10-18T06:32:51Z",
+  "reviewedAt": "2026-10-18T06:32:51Z"
+}
