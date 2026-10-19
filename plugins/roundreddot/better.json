@@ -1,0 +1,25 @@
+{
+  "id": "roundreddot/better",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/RoundRedDot/better-paseo.git",
+    "commit": "a48ec5f5238cb8e3d738b9061c6b3bcc44265280"
+  },
+  "repository": {
+    "url": "https://github.com/RoundRedDot/better-paseo",
+    "commit": "a48ec5f5238cb8e3d738b9061c6b3bcc44265280"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T08:37:12Z",
+  "submittedBy": "RRD-dev",
+  "publishedAt": "2026-10-19T08:39:57Z",
+  "reviewedAt": "2026-10-19T08:39:57Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/a48ec5f5238cb8e3d738b9061c6b3bcc44265280/images/hero-devices-light.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/a48ec5f5238cb8e3d738b9061c6b3bcc44265280/images/hero-devices-dark.png"
+    ]
+  }
+}
