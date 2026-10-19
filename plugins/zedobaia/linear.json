@@ -1,0 +1,22 @@
+{
+  "id": "zedobaia/linear",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ZedObaia/paseo-plugins.git",
+    "commit": "2937afe1453af29a95b17b760d6ccb74cfb05b76",
+    "pluginPath": "plugins/linear"
+  },
+  "repository": {
+    "url": "https://github.com/ZedObaia/paseo-plugins",
+    "commit": "2937afe1453af29a95b17b760d6ccb74cfb05b76"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T08:26:03Z",
+  "submittedBy": "ZedObaia",
+  "publishedAt": "2026-10-19T08:31:19Z",
+  "reviewedAt": "2026-10-19T08:31:19Z"
+}
