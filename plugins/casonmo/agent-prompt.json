@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-agent-prompt.git",
-    "commit": "977bbefe8d8a75d3c93d4673723ff2983b1c5cb9"
+    "commit": "39b17a0cccd2eecb3f21a53c5d0ab3c2b86affe5"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-agent-prompt",
-    "commit": "977bbefe8d8a75d3c93d4673723ff2983b1c5cb9"
+    "commit": "39b17a0cccd2eecb3f21a53c5d0ab3c2b86affe5"
   },
   "categories": [
     "utils",
