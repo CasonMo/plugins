@@ -1,13 +1,14 @@
 {
   "id": "anh-chu/genui",
   "artifact": {
-    "kind": "git",
-    "remote": "https://github.com/anh-chu/paseo-plugin-genui.git",
-    "commit": "2efa43dbaa528b9858b58edaa339cdd0b4254d73"
+    "kind": "npm",
+    "package": "paseo-plugin-genui",
+    "version": "0.1.3",
+    "resolved": "https://registry.npmjs.org/paseo-plugin-genui/-/paseo-plugin-genui-0.1.3.tgz",
+    "integrity": "sha512-YJQKlZ579aRLtrvePak1gyNQE9NnZjSPpGGTAliEeN5wpUpzxGboemrkVplMoUe8d2E4kdYPSCgqeG4C/f+U4A=="
   },
   "repository": {
-    "url": "https://github.com/anh-chu/paseo-plugin-genui",
-    "commit": "2efa43dbaa528b9858b58edaa339cdd0b4254d73"
+    "url": "https://github.com/anh-chu/paseo-plugin-genui"
   },
   "categories": [
     "workspaces",
@@ -18,5 +19,5 @@
   "submittedAt": "2026-10-16T15:59:40Z",
   "submittedBy": "anh-chu",
   "publishedAt": "2026-10-17T21:08:46Z",
-  "reviewedAt": "2026-10-17T21:08:46Z"
+  "reviewedAt": "2026-10-19T04:26:42Z"
 }
