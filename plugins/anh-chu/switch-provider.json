@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/anh-chu/paseo-plugin-switch-provider.git",
-    "commit": "7467dc44e94bc5323e946959f1f69fb3f9996638"
+    "commit": "9d24fe4191fed84eef0ac7a11447ee660a6f79a6"
   },
   "repository": {
     "url": "https://github.com/anh-chu/paseo-plugin-switch-provider",
-    "commit": "7467dc44e94bc5323e946959f1f69fb3f9996638"
+    "commit": "9d24fe4191fed84eef0ac7a11447ee660a6f79a6"
   },
   "categories": [
     "providers",
@@ -16,5 +16,8 @@
   "submittedAt": "2026-10-18T08:05:36.000Z",
   "submittedBy": "anh-chu",
   "publishedAt": "2026-10-18T09:01:47Z",
-  "reviewedAt": "2026-10-18T10:11:16Z"
+  "reviewedAt": "2026-10-19T05:32:08Z",
+  "listing": {
+    "description": "Continue an agent session on another provider and model, compacting large histories with links to a saved transcript."
+  }
 }
