@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/RoundRedDot/better-paseo.git",
-    "commit": "722740fd426d527d480ed7714bd78183c123da03"
+    "commit": "03899e9e4537749d18ef50d60ce6758e9cad7282"
   },
   "repository": {
     "url": "https://github.com/RoundRedDot/better-paseo",
-    "commit": "722740fd426d527d480ed7714bd78183c123da03"
+    "commit": "03899e9e4537749d18ef50d60ce6758e9cad7282"
   },
   "categories": [
     "utils"
@@ -18,7 +18,7 @@
   "reviewedAt": "2026-10-19T12:01:52Z",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/722740fd426d527d480ed7714bd78183c123da03/images/hero-cover.png"
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/03899e9e4537749d18ef50d60ce6758e9cad7282/images/hero-cover.png"
     ]
   }
 }
