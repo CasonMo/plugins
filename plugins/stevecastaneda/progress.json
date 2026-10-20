@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "@stevecastaneda/paseo-progress",
-    "version": "1.3.1",
-    "resolved": "https://registry.npmjs.org/@stevecastaneda/paseo-progress/-/paseo-progress-1.3.1.tgz",
-    "integrity": "sha512-bJHvtQvtSQ7/SJL2RXyM/j1NqAsqQSRL5K0NhhGQUvBVoZjKEaDP/altChZwIs/HmorQQKr4xtu1VdRcUQvCyg=="
+    "version": "1.4.0",
+    "resolved": "https://registry.npmjs.org/@stevecastaneda/paseo-progress/-/paseo-progress-1.4.0.tgz",
+    "integrity": "sha512-21Y+tiR/Tc+tfVVNltQrdoIwtDuKYGRUqTM7EaUfcEQW83QfidGuj+ySEOjMAFZSYx/oWLtGnIy0OPQuJlMcLg=="
   },
   "repository": {
     "url": "https://github.com/stevecastaneda/paseo-plugins/tree/HEAD/progress"
@@ -16,13 +16,5 @@
   "submittedAt": "2026-09-29",
   "submittedBy": "stevecastaneda",
   "publishedAt": "2026-09-29",
-  "reviewedAt": "2026-10-19T10:56:16Z",
-  "listing": {
-    "media": [
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/1-panel.png",
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/2-ticket.png",
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/3-question.png",
-      "https://raw.githubusercontent.com/stevecastaneda/paseo-plugins/6997762ece758cb0abe90d34e1671de1f237039a/progress/images/4-pill.png"
-    ]
-  }
+  "reviewedAt": "2026-10-20T21:09:51Z"
 }
