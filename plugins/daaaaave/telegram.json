@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-telegram",
-    "version": "0.2.0",
-    "resolved": "https://registry.npmjs.org/paseo-telegram/-/paseo-telegram-0.2.0.tgz",
-    "integrity": "sha512-0iAilXrRg6dllTzmrMP8GxENlpaKCofXMxZVhY/F9Cz068PLOE3d6dJC8lBfg/IP0l6R9trUdHcz/9VyP2xEhw=="
+    "version": "0.2.1",
+    "resolved": "https://registry.npmjs.org/paseo-telegram/-/paseo-telegram-0.2.1.tgz",
+    "integrity": "sha512-z7SAC/y3HYZiy71N2ROmICUcQP+peR73R2qJqNJXLszp3SMcUD4z0DMxdp2r58KwLQp9166NWAHlFo03c4MLSg=="
   },
   "repository": {
     "url": "https://github.com/Daaaaave/paseo-telegram",
-    "commit": "dcd396b3e029faa1553174428b8e9c08ed98d028"
+    "commit": "a9dd5709c5522afa1c12c1e58b77390ba791143e"
   },
   "categories": [
     "orchestration",
@@ -19,5 +19,5 @@
   "submittedAt": "2026-10-18T20:03:36Z",
   "submittedBy": "Daaaaave",
   "publishedAt": "2026-10-18T21:02:58Z",
-  "reviewedAt": "2026-10-19T10:54:46Z"
+  "reviewedAt": "2026-10-20T20:41:53Z"
 }
