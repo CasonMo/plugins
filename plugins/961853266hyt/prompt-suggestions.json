@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-prompt-suggestions",
-    "version": "0.2.1",
-    "resolved": "https://registry.npmjs.org/paseo-prompt-suggestions/-/paseo-prompt-suggestions-0.2.1.tgz",
-    "integrity": "sha512-sEzqL7kTWWfDL5DG9Sb66RpKQu2QxCx4UcxIEn7wH7EQq7D5eaDWTLME3btZh8/gfXxd7ykGTSxnHgD+OwGCig=="
+    "version": "0.2.3",
+    "resolved": "https://registry.npmjs.org/paseo-prompt-suggestions/-/paseo-prompt-suggestions-0.2.3.tgz",
+    "integrity": "sha512-w2pbRf5BwM2yWF8ooWyq6gNP3KKQBoNMsiEGC2Ca2S/ak+sdIC05zHAVxXCPMcUMSKzaOMbA30d5+TYgbAgLaA=="
   },
   "repository": {
     "url": "https://github.com/961853266hyt/paseo-plugins/tree/HEAD/plugins/prompt-suggestions"
@@ -16,5 +16,5 @@
   "submittedAt": "2026-10-14T10:34:08Z",
   "submittedBy": "961853266hyt",
   "publishedAt": "2026-10-14T10:37:56Z",
-  "reviewedAt": "2026-10-19T10:53:53Z"
+  "reviewedAt": "2026-10-20T10:09:34Z"
 }
