@@ -1,0 +1,21 @@
+{
+  "id": "hieppp/next-prompt-panel",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/HiepPP/hiep-paseo-plugin.git",
+    "commit": "1e1d29f159064d5cbfe9db583319378127bb3b58",
+    "pluginPath": "plugins/next-prompt-panel"
+  },
+  "repository": {
+    "url": "https://github.com/HiepPP/hiep-paseo-plugin",
+    "commit": "1e1d29f159064d5cbfe9db583319378127bb3b58"
+  },
+  "categories": [
+    "orchestration",
+    "utils"
+  ],
+  "submittedAt": "2026-10-20T09:28:50Z",
+  "submittedBy": "HiepPP",
+  "publishedAt": "2026-10-20T09:31:47Z",
+  "reviewedAt": "2026-10-20T09:31:47Z"
+}
