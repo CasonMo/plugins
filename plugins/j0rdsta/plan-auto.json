@@ -1,0 +1,19 @@
+{
+  "id": "j0rdsta/plan-auto",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/j0rdsta/paseo-plan-auto.git",
+    "commit": "f9b6581386e8761ed6d0ab69e7fdb27ef6314401"
+  },
+  "repository": {
+    "url": "https://github.com/j0rdsta/paseo-plan-auto",
+    "commit": "f9b6581386e8761ed6d0ab69e7fdb27ef6314401"
+  },
+  "categories": [
+    "orchestration"
+  ],
+  "submittedAt": "2026-10-20T01:01:50Z",
+  "submittedBy": "j0rdsta",
+  "publishedAt": "2026-10-20T01:06:44Z",
+  "reviewedAt": "2026-10-20T01:06:44Z"
+}
