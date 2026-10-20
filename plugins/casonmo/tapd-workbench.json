@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-tapd.git",
-    "commit": "70932acb4fb4eff55877408848387ef8f27086fe"
+    "commit": "406af5f5a9dd9465d778212c3061993db6a749c2"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-tapd",
-    "commit": "70932acb4fb4eff55877408848387ef8f27086fe"
+    "commit": "406af5f5a9dd9465d778212c3061993db6a749c2"
   },
   "categories": [
     "utils",
