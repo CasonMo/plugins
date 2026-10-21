@@ -1,0 +1,31 @@
+{
+  "id": "casonmo/bytheway",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/CasonMo/paseo-bytheway.git",
+    "commit": "4e9f4904ce112305850a068d4f7c6bb2d7e4c839"
+  },
+  "repository": {
+    "url": "https://github.com/CasonMo/paseo-bytheway",
+    "commit": "4e9f4904ce112305850a068d4f7c6bb2d7e4c839"
+  },
+  "categories": [
+    "sidebar",
+    "utils",
+    "orchestration"
+  ],
+  "submittedAt": "2026-10-21T11:20:57Z",
+  "submittedBy": "CasonMo",
+  "publishedAt": "2026-10-21T12:32:23Z",
+  "reviewedAt": "2026-10-21T12:32:23Z",
+  "listing": {
+    "name": "ByTheWay",
+    "description": "Run threaded side chats and small tasks beside your main Paseo session, with shared context and live tool activity.",
+    "translations": {
+      "zh-CN": {
+        "name": "ByTheWay 侧聊",
+        "description": "在 Paseo 主会话旁运行多线程侧聊和小任务，共享上下文并实时显示工具活动。"
+      }
+    }
+  }
+}
