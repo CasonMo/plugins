@@ -1,0 +1,29 @@
+{
+  "id": "romejiang/watch-notify",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/romejiang/paseo-watch-notify.git",
+    "commit": "300d821a0946bf1eb5d3e848a0d54b533cecd2f5",
+    "pluginPath": "packages/plugin"
+  },
+  "repository": {
+    "url": "https://github.com/romejiang/paseo-watch-notify",
+    "commit": "300d821a0946bf1eb5d3e848a0d54b533cecd2f5"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T00:16:20Z",
+  "submittedBy": "romejiang",
+  "publishedAt": "2026-10-21T03:01:47Z",
+  "reviewedAt": "2026-10-21T03:01:47Z",
+  "listing": {
+    "icon": "https://raw.githubusercontent.com/romejiang/paseo-watch-notify/300d821a0946bf1eb5d3e848a0d54b533cecd2f5/docs/screenshots/app-icon-1024.png",
+    "media": [
+      "https://raw.githubusercontent.com/romejiang/paseo-watch-notify/fab37dce2a443941865ef56e095938215a63b600/docs/screenshots/paseo-plugin-settings.png",
+      "https://raw.githubusercontent.com/romejiang/paseo-watch-notify/300d821a0946bf1eb5d3e848a0d54b533cecd2f5/docs/screenshots/store-iphone.png",
+      "https://raw.githubusercontent.com/romejiang/paseo-watch-notify/300d821a0946bf1eb5d3e848a0d54b533cecd2f5/docs/screenshots/watch-app.png"
+    ]
+  }
+}
