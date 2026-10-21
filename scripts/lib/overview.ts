@@ -1,8 +1,17 @@
+import { readdirSync } from "node:fs";
+import { dirname, basename } from "node:path";
+import { localizedOverviews } from "./artifact-files.ts";
 import { AuthorError } from "./problems.ts";
 import { readOptional } from "./git-artifact.ts";
 import type { NpmClient } from "./npm.ts";
 import { readArtifactFiles } from "./artifact-files.ts";
 import { type PluginRecord, RECORDS_DIR } from "./record.ts";
+
+/** Reviewer-authored fallback for each language, adjacent to the default registry overview. */
+export function readOverviewTranslations(id: string, directory = RECORDS_DIR): Record<string, string> {
+  const path = `${directory}/${id}`;
+  return localizedOverviews(readdirSync(dirname(path)), (name) => readOptional(dirname(path), name), basename(path)).overviewTranslations ?? {};
+}
 
 /** Registry overview used when the artifact has no author-owned overview. */
 export function readOverview(id: string, directory = RECORDS_DIR): string | null {

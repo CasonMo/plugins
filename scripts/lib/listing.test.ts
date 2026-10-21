@@ -41,6 +41,7 @@ test("publication preserves author, overview, and review dates", async () => {
   const client: NpmClient = {
     async packument() { return { name: doc.name, "dist-tags": { latest: doc.version }, versions: { [doc.version]: doc }, time: {} }; },
     async file(_name, _version, path) { return path === "paseo-plugin.json" ? '{"name":"Dracula"}' : null; },
+    async files() { return []; },
     async provenance() { return null; },
     async tarball() { throw new Error("Not needed"); },
   };
@@ -58,6 +59,7 @@ test("publication keeps the first listing time when a later review updates the p
   const client: NpmClient = {
     async packument() { return { name: doc.name, "dist-tags": { latest: doc.version }, versions: { [doc.version]: doc }, time: {} }; },
     async file(_name, _version, path) { return path === "paseo-plugin.json" ? "{}" : null; },
+    async files() { return []; },
     async provenance() { return null; },
     async tarball() { throw new Error("Not needed"); },
   };

@@ -61,6 +61,7 @@ for (const scenario of ["present", "absent", "network"] as const) {
       const client: NpmClient = {
         async packument() { throw new Error("Source lookup unavailable"); },
         async file() { throw new Error("Not needed for Git overview resolution"); },
+        async files() { return []; },
         async provenance() { return null; },
         async tarball() { throw new Error("Plugin artifacts must not execute"); },
       };

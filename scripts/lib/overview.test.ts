@@ -58,6 +58,7 @@ for (const kind of ["npm", "git"] as const) {
             : path === "paseo-listing.json" ? '{"readme":"README.md"}'
             : overviews.get(version)!;
         },
+        async files() { return []; },
         async provenance() { return { repositoryUrl: remote.replace(/\.git$/, ""), commit: provenanceCommit }; },
         async tarball() { throw new Error("Plugin artifacts must not execute"); },
       };

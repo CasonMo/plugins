@@ -167,3 +167,12 @@ test("git pins round-trip and reject mutable or escaping artifacts", () => {
     /relative directory/,
   );
 });
+
+test("listing translations round-trip and reject invalid locales and fields", () => {
+  const translations = { "zh-CN": { name: "示例" }, fr: { description: "Description" } };
+  const record = parseRecord({ ...valid, listing: { translations } }, known);
+  assert.deepEqual(JSON.parse(serializeRecord(record)).listing.translations, translations);
+  for (const translations of [{ "zh-cn": {} }, { en: {} }, { "zh-CN": { name: " " } }, { fr: { title: "Typo" } }, []]) {
+    assert.throws(() => parseRecord({ ...valid, listing: { translations } }, known), /listing\./);
+  }
+});

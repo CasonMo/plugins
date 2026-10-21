@@ -1,3 +1,4 @@
+import { parseTranslations, type ListingTranslations } from "./translations.ts";
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -27,6 +28,7 @@ export interface PluginRecord {
 }
 
 export interface PluginListingOverrides {
+  translations?: ListingTranslations;
   name?: string;
   description?: string;
   icon?: string;
@@ -135,6 +137,10 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
       problems.push("listing must be an object");
     } else {
       listing = {};
+      if (raw.translations !== undefined) {
+        try { listing.translations = parseTranslations(raw.translations); }
+        catch (error) { problems.push(`listing.${(error as Error).message}`); }
+      }
       if (raw.name !== undefined) {
         if (typeof raw.name !== "string" || !raw.name.trim())
           problems.push("listing.name must be a non-empty string");
@@ -155,7 +161,7 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
         catch (error) { problems.push(`listing.${(error as Error).message}`); }
       }
       for (const key of Object.keys(raw)) {
-        if (!["name", "description", "icon", "media"].includes(key))
+        if (!["name", "description", "icon", "media", "translations"].includes(key))
           problems.push(`unknown field "listing.${key}"`);
       }
     }
