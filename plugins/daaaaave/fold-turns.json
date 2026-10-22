@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-fold-turns",
-    "version": "0.2.3",
-    "resolved": "https://registry.npmjs.org/paseo-fold-turns/-/paseo-fold-turns-0.2.3.tgz",
-    "integrity": "sha512-RVUkr7g5itIqJx1VAxRE93ULxpav5TXVogMscF2WuTftoI9MXsZWosIlYuR6L2OcL91Tva97449b3xVBCVCKlQ=="
+    "version": "0.2.5",
+    "resolved": "https://registry.npmjs.org/paseo-fold-turns/-/paseo-fold-turns-0.2.5.tgz",
+    "integrity": "sha512-/9GvzfKPHCehXzK6qBBW0vVwWvV1ui3pzi1jcy2E7bPXubF9gYJGpAKTXwVc1LS3O1B87g0sc0Do0Sde8p/gjQ=="
   },
   "repository": {
     "url": "https://github.com/Daaaaave/paseo-fold-turns",
-    "commit": "65600a25fb45239ed56a3defe9f2d637a754122a"
+    "commit": "cb8e6df0021feab67b997af5759c89e3e20ed36d"
   },
   "categories": [
     "utils"
@@ -17,5 +17,5 @@
   "submittedAt": "2026-10-18T12:05:39Z",
   "submittedBy": "Daaaaave",
   "publishedAt": "2026-10-18T12:07:34Z",
-  "reviewedAt": "2026-10-21T20:41:53Z"
+  "reviewedAt": "2026-10-22T20:36:15Z"
 }
