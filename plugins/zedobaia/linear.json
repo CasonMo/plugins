@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/ZedObaia/paseo-plugins.git",
-    "commit": "e25c98452dff1c52dc2567e5030ee3abfb7b70f2",
+    "commit": "b7f9fd405e669fa89dd63c2fd2fa0bd3f20e466e",
     "pluginPath": "plugins/linear"
   },
   "repository": {
     "url": "https://github.com/ZedObaia/paseo-plugins",
-    "commit": "e25c98452dff1c52dc2567e5030ee3abfb7b70f2"
+    "commit": "b7f9fd405e669fa89dd63c2fd2fa0bd3f20e466e"
   },
   "categories": [
     "orchestration",
@@ -18,5 +18,5 @@
   "submittedAt": "2026-10-19T08:26:03Z",
   "submittedBy": "ZedObaia",
   "publishedAt": "2026-10-19T08:31:19Z",
-  "reviewedAt": "2026-10-19T17:32:35Z"
+  "reviewedAt": "2026-10-22T11:02:21Z"
 }
