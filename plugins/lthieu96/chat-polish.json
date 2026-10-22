@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/lthieu96/paseo-chat-polish.git",
-    "commit": "0782cd0c87f621a8211d4731717089767929bb88"
+    "commit": "c2b0e6bb98adab16e063112758af8aad7175c03f"
   },
   "repository": {
     "url": "https://github.com/lthieu96/paseo-chat-polish",
-    "commit": "0782cd0c87f621a8211d4731717089767929bb88"
+    "commit": "c2b0e6bb98adab16e063112758af8aad7175c03f"
   },
   "categories": [
     "themes",
@@ -18,13 +18,13 @@
   "submittedAt": "2026-10-15T09:56:56Z",
   "submittedBy": "lthieu96",
   "publishedAt": "2026-10-15T10:09:22Z",
-  "reviewedAt": "2026-10-22T03:33:09Z",
+  "reviewedAt": "2026-10-22T11:38:38Z",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/0782cd0c87f621a8211d4731717089767929bb88/images/chat.png",
-      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/0782cd0c87f621a8211d4731717089767929bb88/images/theme.png",
-      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/0782cd0c87f621a8211d4731717089767929bb88/images/rich-text.png",
-      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/0782cd0c87f621a8211d4731717089767929bb88/images/messages.png"
+      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/c2b0e6bb98adab16e063112758af8aad7175c03f/images/chat.png",
+      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/c2b0e6bb98adab16e063112758af8aad7175c03f/images/theme.png",
+      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/c2b0e6bb98adab16e063112758af8aad7175c03f/images/rich-text.png",
+      "https://raw.githubusercontent.com/lthieu96/paseo-chat-polish/c2b0e6bb98adab16e063112758af8aad7175c03f/images/messages.png"
     ]
   }
 }
