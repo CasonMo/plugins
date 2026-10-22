@@ -1,0 +1,21 @@
+{
+  "id": "hulkzzhou1/model-providers",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/hulkzzhou1/paseo-model-providers.git",
+    "commit": "beab3a24c8cc210ea793f22dd337928359302f32"
+  },
+  "repository": {
+    "url": "https://github.com/hulkzzhou1/paseo-model-providers",
+    "commit": "beab3a24c8cc210ea793f22dd337928359302f32"
+  },
+  "categories": [
+    "providers",
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T07:50:49Z",
+  "submittedBy": "hulkzzhou1",
+  "publishedAt": "2026-10-22T08:03:00Z",
+  "reviewedAt": "2026-10-22T08:03:00Z"
+}
