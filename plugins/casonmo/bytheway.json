@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-bytheway.git",
-    "commit": "1bac0c40c6a61e4b08bd1178b14e8e95499af1fe"
+    "commit": "5fcb1497fdfef14bc189cda27e59fe7a510fe352"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-bytheway",
-    "commit": "1bac0c40c6a61e4b08bd1178b14e8e95499af1fe"
+    "commit": "5fcb1497fdfef14bc189cda27e59fe7a510fe352"
   },
   "categories": [
     "sidebar",
@@ -17,7 +17,7 @@
   "submittedAt": "2026-10-21T11:20:57Z",
   "submittedBy": "CasonMo",
   "publishedAt": "2026-10-21T12:32:23Z",
-  "reviewedAt": "2026-10-22T12:02:37Z",
+  "reviewedAt": "2026-10-23T04:31:38Z",
   "listing": {
     "name": "ByTheWay",
     "description": "ByTheWay (btw) — run threaded side chats and small tasks beside your main Paseo session, with shared context and live tool activity.",
