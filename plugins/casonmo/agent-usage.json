@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-agent-usage.git",
-    "commit": "5c2db10b01f76b1506f318eff256f571d8976b2f"
+    "commit": "cd1431eb4532c36f1cfe9efcd91191698dc159a7"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-agent-usage",
-    "commit": "5c2db10b01f76b1506f318eff256f571d8976b2f"
+    "commit": "cd1431eb4532c36f1cfe9efcd91191698dc159a7"
   },
   "categories": [
     "utils",
