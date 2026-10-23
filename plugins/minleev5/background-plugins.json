@@ -1,0 +1,19 @@
+{
+  "id": "minleev5/background-plugins",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/MinLeeV5/paseo-background-plugins.git",
+    "commit": "c179948728b7c11945b7a51368ed1883c5a62719"
+  },
+  "repository": {
+    "url": "https://github.com/MinLeeV5/paseo-background-plugins",
+    "commit": "c179948728b7c11945b7a51368ed1883c5a62719"
+  },
+  "categories": [
+    "themes"
+  ],
+  "submittedAt": "2026-10-23T02:37:41Z",
+  "submittedBy": "MinLeeV5",
+  "publishedAt": "2026-10-23T03:04:51Z",
+  "reviewedAt": "2026-10-23T03:04:51Z"
+}
