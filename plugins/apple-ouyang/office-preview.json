@@ -1,0 +1,27 @@
+{
+  "id": "apple-ouyang/office-preview",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/apple-ouyang/paseo-office-preview.git",
+    "commit": "ce667e7e8931c40d9117f33ab2468128968d834a"
+  },
+  "repository": {
+    "url": "https://github.com/apple-ouyang/paseo-office-preview",
+    "commit": "ce667e7e8931c40d9117f33ab2468128968d834a"
+  },
+  "categories": [
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-25T14:06:33Z",
+  "submittedBy": "apple-ouyang",
+  "listing": {
+    "name": "Office Preview",
+    "media": [
+      "https://raw.githubusercontent.com/apple-ouyang/paseo-office-preview/ce667e7e8931c40d9117f33ab2468128968d834a/assets/powerpoint.png",
+      "https://raw.githubusercontent.com/apple-ouyang/paseo-office-preview/ce667e7e8931c40d9117f33ab2468128968d834a/assets/excel.png",
+      "https://raw.githubusercontent.com/apple-ouyang/paseo-office-preview/ce667e7e8931c40d9117f33ab2468128968d834a/assets/word.png"
+    ]
+  },
+  "publishedAt": "2026-10-25T14:33:54Z",
+  "reviewedAt": "2026-10-25T14:33:54Z"
+}
