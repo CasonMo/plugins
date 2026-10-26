@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-bytheway.git",
-    "commit": "4e2d4951f4207ae93babda829b5b445989f3e12a"
+    "commit": "d1e243886148c21bfb4e7b01d0ea694c4c709e71"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-bytheway",
-    "commit": "4e2d4951f4207ae93babda829b5b445989f3e12a"
+    "commit": "d1e243886148c21bfb4e7b01d0ea694c4c709e71"
   },
   "categories": [
     "sidebar",
@@ -20,12 +20,15 @@
   "reviewedAt": "2026-10-23T08:32:34Z",
   "listing": {
     "name": "ByTheWay",
-    "description": "ByTheWay (btw) — use /btw to ask on the side and /side to run tasks beside your main Paseo session, with original-prompt recall, shared context and live tool activity.",
+    "description": "ByTheWay (btw) — use /btw to ask beside your main Paseo session, with provider-native model, thinking, mode and feature controls, shared context and live tool activity.",
     "translations": {
       "zh-CN": {
         "name": "ByTheWay 侧聊",
-        "description": "ByTheWay（btw）旁路侧聊：用 /btw 提问、/side 执行任务，在主 Paseo 会话旁回显首条提问、共享上下文并实时显示工具活动。"
+        "description": "ByTheWay（btw）旁路侧聊：用 /btw 在主 Paseo 会话旁提问，动态控制模型、思考、Mode 和 provider Features，共享上下文并实时显示工具活动。"
       }
-    }
+    },
+    "media": [
+      "https://raw.githubusercontent.com/CasonMo/paseo-bytheway/d1e243886148c21bfb4e7b01d0ea694c4c709e71/assets/screenshot-commands.png"
+    ]
   }
 }
