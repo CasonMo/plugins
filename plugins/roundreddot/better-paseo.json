@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/RoundRedDot/better-paseo.git",
-    "commit": "c874f4819668a09c3da1c41c8c9a2bcc4e92e1d5"
+    "commit": "230f05ba826041e21d878a14ba4fc9effad3fa11"
   },
   "repository": {
     "url": "https://github.com/RoundRedDot/better-paseo",
-    "commit": "c874f4819668a09c3da1c41c8c9a2bcc4e92e1d5"
+    "commit": "230f05ba826041e21d878a14ba4fc9effad3fa11"
   },
   "categories": [
     "utils"
