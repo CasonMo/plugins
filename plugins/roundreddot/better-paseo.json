@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/RoundRedDot/better-paseo.git",
-    "commit": "da4139f5fcf9b6f5c4ddac70049b395f62e4792d"
+    "commit": "c874f4819668a09c3da1c41c8c9a2bcc4e92e1d5"
   },
   "repository": {
     "url": "https://github.com/RoundRedDot/better-paseo",
-    "commit": "da4139f5fcf9b6f5c4ddac70049b395f62e4792d"
+    "commit": "c874f4819668a09c3da1c41c8c9a2bcc4e92e1d5"
   },
   "categories": [
     "utils"
@@ -18,18 +18,20 @@
   "reviewedAt": "2026-10-27T12:07:47Z",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/images/hero-cover.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/images/tasks-board-light.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/images/timeline-light.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/02-tasks-board.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/03-timeline.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/04-phone.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/05-ipad.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/06-tool-icons.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/07-hover-preview.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/08-tables.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/09-card-menu.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/10-settings.png"
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/videos/timeline-web.mp4",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/videos/tasks-web.mp4",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/images/hero-cover.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/images/tasks-board-light.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/images/timeline-light.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/02-tasks-board.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/03-timeline.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/04-phone.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/05-ipad.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/06-tool-icons.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/07-hover-preview.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/08-tables.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/09-card-menu.png",
+      "https://cdn.jsdelivr.net/gh/RoundRedDot/better-paseo-assets@3c57b6ea8f8be3e281ad0410d1ec9c53eb30708b/promo-v14/assets/listing/10-settings.png"
     ]
   }
 }
