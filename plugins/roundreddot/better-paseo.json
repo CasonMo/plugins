@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/RoundRedDot/better-paseo.git",
-    "commit": "8d34f528bafe89255b8e7efbce216cc9204f7c77"
+    "commit": "7a2e04644b29158512fd2bbd3450d63dc63c835a"
   },
   "repository": {
     "url": "https://github.com/RoundRedDot/better-paseo",
-    "commit": "8d34f528bafe89255b8e7efbce216cc9204f7c77"
+    "commit": "7a2e04644b29158512fd2bbd3450d63dc63c835a"
   },
   "categories": [
     "utils"
@@ -15,12 +15,5 @@
   "submittedAt": "2026-10-19T08:37:12Z",
   "submittedBy": "RRD-dev",
   "publishedAt": "2026-10-19T08:39:57Z",
-  "reviewedAt": "2026-10-27T02:06:19Z",
-  "listing": {
-    "media": [
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/8d34f528bafe89255b8e7efbce216cc9204f7c77/images/hero-cover.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/8d34f528bafe89255b8e7efbce216cc9204f7c77/images/tasks-board-light.png",
-      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/8d34f528bafe89255b8e7efbce216cc9204f7c77/images/timeline-light.png"
-    ]
-  }
+  "reviewedAt": "2026-10-27T02:06:19Z"
 }
