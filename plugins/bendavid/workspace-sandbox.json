@@ -1,0 +1,21 @@
+{
+  "id": "bendavid/workspace-sandbox",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/bendavid/paseo-workspace-sandbox.git",
+    "commit": "f9b9d1d45dc871bf3fe8fa31c48dc17a186b1140",
+    "tag": "v0.1.1"
+  },
+  "repository": {
+    "url": "https://github.com/bendavid/paseo-workspace-sandbox",
+    "commit": "f9b9d1d45dc871bf3fe8fa31c48dc17a186b1140"
+  },
+  "categories": [
+    "providers",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-30T00:15:46Z",
+  "submittedBy": "bendavid",
+  "publishedAt": "2026-10-30T00:31:52Z",
+  "reviewedAt": "2026-10-30T09:09:08Z"
+}
