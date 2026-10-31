@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-qoder-usage.git",
-    "commit": "8c1df7fc3a9e4b63d776f954fda510a1861cb4d3"
+    "commit": "338e051b480071e4a89ff149a0f67ffa75716bdf"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-qoder-usage",
-    "commit": "8c1df7fc3a9e4b63d776f954fda510a1861cb4d3"
+    "commit": "338e051b480071e4a89ff149a0f67ffa75716bdf"
   },
   "categories": [
     "utils",
