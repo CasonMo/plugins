@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/CasonMo/paseo-qoder-usage.git",
-    "commit": "7601c3de2b2c6782a8fb0a047cf725d6bb2f6f5f"
+    "commit": "1fd2a110c6ceaedfd6b8cfe2cfdcfae7f1b6b153"
   },
   "repository": {
     "url": "https://github.com/CasonMo/paseo-qoder-usage",
-    "commit": "7601c3de2b2c6782a8fb0a047cf725d6bb2f6f5f"
+    "commit": "1fd2a110c6ceaedfd6b8cfe2cfdcfae7f1b6b153"
   },
   "categories": [
     "utils",
@@ -18,8 +18,16 @@
   "publishedAt": "2026-10-16T04:04:22Z",
   "reviewedAt": "2026-10-16T17:16:17Z",
   "listing": {
+    "name": "Qoder Usage",
+    "description": "Shows Qoder and Qoder CN account credits, aggregating every logged-in site and refreshing each independently.",
+    "translations": {
+      "zh-CN": {
+        "name": "Qoder 额度",
+        "description": "聚合展示 Qoder 与 Qoder CN 账号额度，支持各站点独立刷新。"
+      }
+    },
     "media": [
-      "https://raw.githubusercontent.com/CasonMo/paseo-qoder-usage/7601c3de2b2c6782a8fb0a047cf725d6bb2f6f5f/assets/screenshot.png"
+      "https://raw.githubusercontent.com/CasonMo/paseo-qoder-usage/1fd2a110c6ceaedfd6b8cfe2cfdcfae7f1b6b153/assets/screenshot.png"
     ]
   }
 }
