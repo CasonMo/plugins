@@ -16,18 +16,5 @@
   "submittedAt": "2026-10-16T03:37:04Z",
   "submittedBy": "CasonMo",
   "publishedAt": "2026-10-16T04:04:22Z",
-  "reviewedAt": "2026-10-16T17:16:17Z",
-  "listing": {
-    "name": "Qoder Usage",
-    "description": "Shows Qoder and Qoder CN account credits, aggregating every logged-in site and refreshing each independently.",
-    "translations": {
-      "zh-CN": {
-        "name": "Qoder 额度",
-        "description": "聚合展示 Qoder 与 Qoder CN 账号额度，支持各站点独立刷新。"
-      }
-    },
-    "media": [
-      "https://raw.githubusercontent.com/CasonMo/paseo-qoder-usage/8c1df7fc3a9e4b63d776f954fda510a1861cb4d3/assets/screenshot.png"
-    ]
-  }
+  "reviewedAt": "2026-10-31T09:04:16Z"
 }
